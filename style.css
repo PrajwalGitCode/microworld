@@ -1,0 +1,257 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Codystar", sans-serif;
+    font-weight: bolder;
+    overflow-x :hidden; 
+    width: 100%;
+    
+}
+
+
+body{
+    border: 2rem solid;
+    border-image:linear-gradient(#001535,#00526a, #49006a,#bd0680, #000266);
+    border-image-slice: 2;
+    position: relative;
+}
+
+.codystar-regular {
+    font-family: "Codystar", sans-serif;
+    font-weight: bolder;
+    font-style: normal;
+}
+
+nav {
+    background-color: #000000;
+    color: white;
+    padding: 2rem 0;
+    overflow: visible;
+    position: sticky;
+}
+
+.nav-container {
+    display: flex;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+
+}
+
+.nav-menu {
+    display: flex;
+    list-style: none;
+    margin-left: auto;
+    padding: 0;
+
+}
+
+.nav-item {
+    margin: 0 1rem;
+}
+
+.nav-item a {
+    color:white;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bolder;
+    transition: color 0.3s ease;
+}
+
+.nav-item a:hover {
+    color: #ff0000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.first {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #000000;
+}
+
+.first h1 {
+    font-size: 80px;
+    text-align: center;
+    background: linear-gradient(#00ffee, #004fcf);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.first h2 {
+    font-size: 40px;
+    text-align: center;
+    background: linear-gradient(#eaff00, #6aff00);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.second {
+    height: 100vh;
+    background-color: #000000;
+    padding: 0px 50px 0px 50px;
+}
+
+
+.second h1 {
+    font-size: 80px;
+    text-align: center;
+    background: linear-gradient(#fffffff1, #0062ff);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.second h2 {
+    font-size: 25px;
+    text-align: center;
+    background: linear-gradient(#ffffff, #00f7ff);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.secbo{
+    display:flex;
+    justify-content: space-between;
+    padding-top: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec h3{
+    text-align: center;
+    font-size: 40px;
+    background: linear-gradient(#fc2403f5, #44a201);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-bottom:30px ;
+}
+
+.secimg img{
+    height: 350px;
+    width: 650px;
+}
+
+
+
+
+.third {
+    height: 100vh;
+    background-color: #000000;
+    padding: 0px 50px 0px 50px;
+}
+
+.third-body{
+    display:flex;
+    justify-content: space-between;
+    padding-top: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.third h1 {
+    font-size: 80px;
+    text-align: center;
+    background: linear-gradient(#fffffff1, #0062ff);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.third h2 {
+    font-size: 25px;
+    text-align: center;
+    background: linear-gradient(#ffffff, #7300ff);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+
+
+.arti {
+    height: 100vh;
+    background-color: #000000;
+    padding: 0px 50px 0px 50px;
+}
+
+.arti h1 {
+    font-size: 80px;
+    text-align: center;
+    background: linear-gradient(#fffffff1, #0062ff);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.arti h2 {
+    font-size: 25px;
+    text-align: center;
+    background: linear-gradient(#ffffff, #ff00c3);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.artibo{
+    display:flex;
+    justify-content: space-between;
+    padding-top: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.arti img{
+    height: 250px;
+    width: 500px;
+}
+
+
+.footer{
+    background-color: #000000;
+}
+
+.footer h1 {
+    font-size: 80px;
+    text-align: center;
+    background: linear-gradient(#fffffff1, #0062ff);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.foot-ico{
+    display:flex;
+    justify-content: space-around;
+    background-clip: text;
+}
+
+.footer h3{
+    text-align: center;
+    font-size: 60px;
+    padding-top: 100px;
+    height: 40vh;
+    background: linear-gradient(#000725f5, #f200ff);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-bottom:30px ;
+}
+
+
+
