@@ -5,7 +5,7 @@
     box-sizing: border-box;
     font-family: "Codystar", sans-serif;
     font-weight: bolder;
-    overflow-x :hidden; 
+    overflow-x :hidden;  
     width: 100%;
     
 }
@@ -28,7 +28,6 @@ nav {
     background-color: #000000;
     color: white;
     padding: 2rem 0;
-    overflow: visible;
     position: sticky;
 }
 
@@ -226,6 +225,7 @@ nav {
 
 .footer{
     background-color: #000000;
+    overflow-y :hidden; 
 }
 
 .footer h1 {
@@ -238,15 +238,15 @@ nav {
 
 .foot-ico{
     display:flex;
-    justify-content: space-around;
+    justify-content: space-between;
     background-clip: text;
 }
 
 .footer h3{
     text-align: center;
-    font-size: 60px;
+    font-size: 50px;
     padding-top: 100px;
-    height: 40vh;
+    height: 50vh;
     background: linear-gradient(#000725f5, #f200ff);
     background-clip: text;
     -webkit-text-fill-color: transparent;
